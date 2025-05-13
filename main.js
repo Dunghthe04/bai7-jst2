@@ -114,15 +114,15 @@ function ExpressFunction() {
 }
 console.log(ExpressFunction(9,9,9,9,9));
 
-//declearation function, expression function có tính hoisting tính hoisting (gọi hàm trước khi khai báo): 
+//declearation function có tính hoisting tính hoisting (gọi hàm trước khi khai báo): 
 hoisteddeclearation();
-hoisteddeExpression();
+hoisteddeExpression();// expressionFunction ko có tính hoisting
 
 function hoisteddeclearation(){
     console.log("có hoisting");
 }
 
-function hoisteddeExpression(){
+let hoisteddeExpression= function(){
     console.log("có hoisting");
 }
 
