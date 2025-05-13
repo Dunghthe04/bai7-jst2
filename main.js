@@ -132,7 +132,6 @@ let sum=()=>{
     console.log("Arrow function");
 }
 sum();
-sum();
 
 
 
